@@ -5,10 +5,11 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 const token = 'YOUR TOKEN HERE'
-
+/*You can change the prefix to anything you'd like the bot to detect*/
 const PREFIX = '$';
 
 bot.login(token)
 
 bot.on('ready',() =>{
+    /* You can write whatever you'd like the bot to say in the terminal when the bot is online */
     console.log('Your first bot is online!');})
